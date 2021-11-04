@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A repo for practicing how to use Github for open-source",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/neilgebhard/git-practice/issues"
   },
-  "homepage": "https://github.com/neilgebhard/git-practice#readme"
+  "homepage": "https://github.com/neilgebhard/git-practice#readme",
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
 }
